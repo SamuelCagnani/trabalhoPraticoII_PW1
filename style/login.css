@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, sans-serif;
+    font-family: 'Luckiest Guy', cursive;
 }
 
 body {
@@ -23,9 +23,154 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 40px;
+    gap: 15px;
 }
 
 .login-container button:hover {
     background: #270B14;
+}
+
+.login-text {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 21px;
+    font-weight: 300;
+    color: #FFFFFF;
+    line-height: 40px;
+    width: 340px;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+.content-box {
+    width: 326px;
+    height: 434px;
+    background: #131313;
+    border-radius: 16px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+}
+
+.mc-login {
+    width: 236px;
+    background: transparent;
+    border: 1px solid #DA6D57;
+    color: #DA6D57;
+    padding: 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -20px;
+    font-size: 12px;
+}
+
+.mc-login img {
+    margin-right: 10px;
+    width: 15px; 
+    height: 15px; 
+}
+
+.login-account {
+    margin-top: 5px;
+}
+input {
+    width: 310px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #FFFFFF;
+    background: #222;
+    color: white;
+}
+
+.password-container {
+    width: 310px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    color: #DA6D57;
+    text-decoration: none;
+    font-size: 11px;
+    align-self: flex-start;
+    margin-top: 1px;
+}
+
+.create-account {
+    width: 310px;
+    height: 92px;
+    background: transparent;
+    border: 1px solid #DA6D57;
+    color: #DA6D57;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-top: 28px;
+    font-size: 12px;
+}
+
+.login {
+    width: 310px;
+    height: 92px;
+    background: #840000;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 12px;
+    font-weight: bold;
+    border: none;
+    font-size: 17px;
+}
+
+.line1 {
+    width: 326px;
+    height: 1px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.line2 {
+    width: 326px;
+    height: 1px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+
+label {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    color: white;
+    align-self: flex-start;
+    margin-bottom: -17px;
+    margin-left: 2px;
+}
+
+.label1 {
+    margin-top: 100px;
+}
+
+.inputs {
+    margin-top: 10px;
+}
+
+input::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700; 
+    font-size: 14px;
+    color: #808080; 
 }

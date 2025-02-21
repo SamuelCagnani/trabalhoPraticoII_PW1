@@ -4,11 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style/login.css">
+    <link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap" rel="stylesheet">
     <title>Login</title>    
 </head>
 
 <body>
     <div class="login-container">
+        <p class="login-text">Create your account or login</p>
+        
+        <div class="content-box">
+            <button class="mc-login">
+                <img src="/images/minecraft.png" alt="MC Icon"> 
+                <p class="login-account">LOGIN WITH MC ACCOUNT</p>
+            </button>
+            <div class="line1"></div>
+            <div class="inputs">
+            <label for="email">E-mail or Nickname</label>
+            <div class="text-container">
+            <input type="text" id="email" placeholder="Registration e-mail or nickname">
+            </div>
+            <label clas="label1" for="password">Password</label>
+            <div class="password-container">
+                <input type="password" id="password" placeholder="Your password">
+                <span class="eye-icon">👁️</span>
+            </div>
+            </div>
+
+            <a href="#" class="forgot-password">FORGOT PASSWORD?</a>
+            <div class="line2"></div>
+            <button class="create-account">CREATE ACCOUNT</button>
+            <button class="login">LOGIN</button>
+        </div>
     </div>
 </body>
+
 </html>
