@@ -114,11 +114,12 @@ input {
     background: transparent;
     border: 1px solid #DA6D57;
     color: #DA6D57;
-    padding: 10px;
+    padding: 10px 0;
     border-radius: 12px;
     font-weight: bold;
     margin-top: 28px;
     font-size: 12px;
+    text-align: center;
 }
 
 .login {
@@ -173,4 +174,19 @@ input::placeholder {
     font-weight: 700; 
     font-size: 14px;
     color: #808080; 
+}
+
+.eye-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    font-size: 18px;
+    color: #707070;
+    transition: color 0.3s ease;
+}
+
+.eye-icon:hover {
+    color: #ffffff;
 }
